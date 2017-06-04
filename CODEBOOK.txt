@@ -1,0 +1,57 @@
+CODE BOOK
+
+There has been little changes from the original data sets variable names.
+Both files ("HAR.csv" and "Average_HAR.csv") consist of 66 numeric variables,
+and two variables defining Subject and Activity for each measure. The "HAR.csv"
+contains one more variable, Type.
+
+#############################
+Variable definitions: Factors
+
+- Type: Describes if the observation comes from the test or training data sets.
+Factor with two (2) levels: 
+1. Test
+2. Train
+
+- Activity: Describes the type of activity realized by the subject for each observation. Factor with six (6) levels:
+1. LAYING
+2. SITTING
+3. STANDING
+4. WALKING
+5. WALKING_DOWNSTAIRS
+6. WALKING_UPSTAIRS
+
+- Subject: An identifier for each observation coming from an specific subject.
+Factor with thirty (30) levels: 1-30
+
+#############################
+Variable definitions: Numeric variables
+
+The name for each variable is formed by three (3) or two (2) terms, separated by an underscore ("_").
+
+* First term: Describes the summary statistic for the variable
+1. "mean" for the average or 
+2. "std" for the standard deviation
+
+* Second term: Describes the variable. If the variable name is preceded by "t" it means that the variable refers to a time (s). If the variable name is preceded by an "f" it means that the variable refers to a frecuency (Hz).
+
+* Third term: Describes the axis (X, Y or Z) of the measure.
+
+List of numeric variables:
+- "tBodyAcc"
+- "tGravityAcc"
+- "tBodyAccJerk"
+- "tBodyGyro"
+- "tBodyGyroJerk"
+- "tBodyAccMag"
+- "tGravityAccMag"
+- "tBodyAccJerkMag"
+- "tBodyGyroMag"        
+- "tBodyGyroJerkMag"
+- "fBodyAcc"
+- "fBodyAccJerk"        
+- "fBodyGyro"
+- "fBodyAccMag"
+- "fBodyBodyAccJerkMag" 
+- "fBodyBodyGyroMag"
+- "fBodyBodyGyroJerkMag"
