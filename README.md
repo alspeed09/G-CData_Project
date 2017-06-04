@@ -26,9 +26,9 @@ save them as a tidy data sets in CSV format.
 
 * "UCI HAR Dataset": this is the unziped directory that came in the downloaded zip data.
 
-* "HAR.csv": A CSV file containing the merged data sets for the Human Activity Recognition project
+* "HAR.txt": A TXT file containing the merged data sets for the Human Activity Recognition project
 
-* "Average_HAR.csv": A CSV file containing the average of all variables in the HAR.csv file, by Subject and Activity.
+* "Average_HAR.txt": A TXT file containing the average of all variables in the HAR.csv file, by Subject and Activity.
 
 * "CODEBOOK.txt": A text file that briefly explains the variables in the HAR.csv and Average_HAR.csv files.
 
