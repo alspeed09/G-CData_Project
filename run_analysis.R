@@ -81,7 +81,7 @@ HAR_df_av <- aggregate(. ~ Subject + Activity, data = HAR_df[, -67], FUN = mean)
 
 ## Write the HAR data set
 HAR_df <- HAR_df[, c(69, 68, 67, 1:66)]
-write.csv(HAR_df, "HAR.csv", row.names = F)
+write.table(HAR_df, "HAR.txt", row.names = F)
 
 ## Write the summarized data set
-write.csv(HAR_df_av, "Average_HAR.csv", row.names = F)
+write.table(HAR_df_av, "Average_HAR.txt", row.names = F)

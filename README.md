@@ -1,10 +1,10 @@
-#General information
+## General information
 
 Course Project for: Getting and Cleaning Data
 
 Human Activity Recognition Using Smartphones Dataset
 
-#Author information
+## Author information
 
 Ascanio-Moreno, Alfredo
 
@@ -14,7 +14,7 @@ Caracas, Venezuela
 
 github.com/alspeed09
 
-#Description
+## Description
 
 This repository contains the following files and directories:
 
